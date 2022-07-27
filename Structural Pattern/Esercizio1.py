@@ -1,8 +1,10 @@
 
 """"
+
 Scrivere il decoratore di funzione decf che fa in modo che venga
 lanciata l ’eccezione TypeError se il numero di argomenti è diverso da
-due. Altrimenti, se la funzione decorata restituisce un risultato,
+due. 
+Altrimenti, se la funzione decorata restituisce un risultato,
 questo viene aggiunto insieme al valore del primo argomento in un
 file di nome “risultato.txt”.
 • Suggerimento: Ricordatevi di convertire a stringa il valore del primo

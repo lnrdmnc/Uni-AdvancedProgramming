@@ -19,4 +19,4 @@ strana= StranaTupla('a','h',5,'dado',4)
 print(strana)
 
 
-"""output 'a', '5, '4' """
+""" output 'a', '5, '4' """
