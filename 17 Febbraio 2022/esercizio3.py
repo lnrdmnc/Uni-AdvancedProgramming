@@ -9,16 +9,6 @@ aggiungere altre variabili oltre a quelle sopra indicate, queste altre variabili
 come variabili di classe e non di istanza
 
 """
-
-
-
-
-
-
-
-
-
-
 class CiDaproteggere:
 
     def leggi(self):
@@ -33,9 +23,6 @@ class CiDaproteggere:
     def notCallable(self):
         pass
 
-
-
-
 class ProteggiClasse():
 
     def __init__(self):
@@ -46,7 +33,6 @@ class ProteggiClasse():
         if name == "notCallable":
             raise AttributeError("Not Allowed")
         return getattr(self.implementation,name)
-
 
 proteggi= ProteggiClasse()
 proteggi.scriviZ()
