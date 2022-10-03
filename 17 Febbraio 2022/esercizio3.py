@@ -37,5 +37,3 @@ class ProteggiClasse():
 proteggi= ProteggiClasse()
 proteggi.scriviZ()
 proteggi.notCallable()  
-
-

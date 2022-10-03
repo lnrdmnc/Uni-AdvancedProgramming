@@ -8,6 +8,7 @@ inserisce nel file di nome file_name seguita da uno spazio. Il parametro w di fi
 coroutine write.
 Suggerimento: potreste usare re.findall(r'\w+', testo) per estrarre le parole da testo.
 
+
 """
 
 from fileinput import filename
