@@ -24,7 +24,6 @@ def decFact(*args,**kwargs):
     def decorator(aClass):
         def __init__(self):
             super(aClass,self).__init__()
-
             for i in range(1, len([*args])):
                 if hasattr(self, [*args][i]):
                     pass
