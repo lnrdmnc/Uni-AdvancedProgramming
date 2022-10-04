@@ -69,7 +69,10 @@ class MyDictionary():
             for item2 in d.dlist:
                 if item2.getKey()==item.getKey() and item.getValue()==item2.getValue():
                     flag= True
+                    break
+            #se flag è false vuol dire che le chiavi e il valore non combaciano e quindi false
                 if not flag: return False
+            #se la lunghezza delle due lunghezza sono uguali dopo aver verificato che all'interno ci sono gli stessi valori ritorna true
         if len(self.dlist)==len(d.dlist):
             return True
                             
